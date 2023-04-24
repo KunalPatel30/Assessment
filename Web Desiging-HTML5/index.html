@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Pulse</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="left-side">
+            <a href="#" class="logo">DREAM PULSE</a>
+
+            <nav class="navbar">
+                <a href="#">INTRO</a>
+                <a href="#">ABOUT</a>
+                <a href="#">WORK</a>
+                <a href="#">CLIENTS</a>
+                <a href="#">LET'S TALK</a>
+            </nav>
+
+            <div class="follow">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+
+            <div class="copy">
+                <p>Copyright 2022 Dream Pulse</p>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div class="box">
+                <h3>INTRODUCING DREAM PULSE</h3>
+                <P>This box alpha 30 percent. Left sidebar is a sticky element.
+                    Right side Contents are scrolling up and down. This background has a
+                    parallax effect.</P>
+                <p>Dream Pulse is a Bootstrap 4.3.1 template designed for your websites. You can modify this layout as you like.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="content">
+
+
+        <div class="one"></div>
+
+        <div class="two">
+            <div class="about">
+                <div class="sec-1">
+                    <i class="fa fa-balance-scale" aria-hidden="true"></i>
+                    <h2>About Us</h2>
+                    <p>
+                        When first section is scrolled up, BG image will be disappeared with a parallax effect. 
+                        Donec ac tempor tellus, a eleifend ligula. Fusce vitae sem sed purus euismod condimentum.
+                    </p>
+                    <p>
+                        Sed at orci non metus tristique suscipit vitae in nibh. Sed rutrum odio ac est hendrerit, at vestibulum felis condimentum.
+                    </p>
+                </div>
+
+                <div class="sec-2">
+                    <i class="fa fa-building-o" aria-hidden="true"></i>
+                    <h2>Company Profile</h2>
+                    <p>
+                        You can use this template for your commercial websites or for your clients. 
+                        You are NOT allowed to re-post this template as a downloadable ZIP file 
+                        on your template collection sites. It is illegal.
+                    </p>
+                    <p>
+                        Suspendisse fermentum orci eget lorem euismod suscipit. Morbi condimentum odio metus, at finibus dolor sollicitudin quis.
+                        Curabitur eu congue erat.
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="work">
+                <h2>Our Work</h2>
+                <div class="main-carousel">
+                    <div class="cell"><img src="gallery/01.jpg" alt=""></div>
+                    <div class="cell"><img src="gallery/02.jpg" alt=""></div>
+                    <div class="cell"><img src="gallery/03.jpg" alt=""></div>
+                    <div class="cell"><img src="gallery/04.jpg" alt=""></div>
+                    <div class="cell"><img src="gallery/05.jpg" alt=""></div>
+                    <div class="cell"><img src="gallery/06.jpg" alt=""></div>
+                    <div class="cell"><img src="gallery/07.jpg" alt=""></div>
+                    <div class="cell"><img src="gallery/08.jpg" alt=""></div>
+                  </div>
+            </div>
+
+
+
+
+
+            <div class="clients">
+                <div class="desc">
+                    <h2>Our Clients</h2>
+                    <p>
+                        Aenean est augue, iaculis ut arcu a, cursus tempus eros. Maecenas ut efficitur lectus, vel commodo nibh. Vivamus
+                        consequat massa non euismod facilisis. Morbi assumsan non libero a vehicula. Donec blandit suscipit magna sit amet elementum.
+                    </p>
+                </div>
+                <div class="comp">
+                    <div class="p-1">
+                        <img src="client-1.png" alt="">
+                        <img src="client-2.png" alt="">
+                        <img src="client-3.png" alt="">
+                        <img src="client-4.png" alt="">
+                    </div>
+                    <div class="p-2">
+                        <img src="client-5.png" alt="">
+                        <img src="client-6.png" alt="">
+                        <img src="client-7.png" alt="">
+                        <img src="client-8.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="footer">
+                <div class="talk">
+                    <h2>Talk to Us</h2>
+                        <p>
+                            Sed aliquet, nibh ac hendrerit faucibus, tellus metus viverra tellus, vel volutpat purus orci ac ex.
+                        </p>
+                        <p>
+                            120-240 Orci varius natoque penatibus, <br>
+                            parturient montes, 10660 <br>
+                            nasvetur ridiculus mus
+                        </p>
+                </div>
+                <div class="contact">
+                    <form action="">
+                        <input type="text"  placeholder="Your Name" required="" /><br>
+                        <input type="email"  placeholder="Your Email" required="" /><br>
+                        <textarea rows="4" placeholder="Message..." required=""></textarea><br>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
+    <script type="text/javascript">
+        $('.main-carousel').flickity({
+            // options
+            cellAlign: 'left',
+            wrapAround: true,
+            freeScroll: true
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.main{
+    display: flex;
+    background-image: url("backgraound.jpg");
+    backdrop-filter: 15px;
+    height: 650px;
+    width: 100%;
+    justify-content: space-between;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.left-side{
+    background-color: #000;
+    opacity: 0.6;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    flex-flow: column;
+    padding: 10px 20px;
+    color: #fff;
+}
+.left-side .logo{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 50px;
+    border: 1px solid #fff;
+    padding: 20px 8px;
+}
+.left-side .navbar{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.left-side .navbar a{
+    
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    margin: 2rem 0;
+    text-decoration: none;
+}
+.left-side .navbar a:hover{
+    letter-spacing: 3px;
+}
+
+.left-side .follow a{
+    font-size: 25px;
+    color: #fff;
+    margin: 0 .7rem;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.right-side{
+    padding: 130px 50px;
+    width: 45%;
+    height: 100%;
+}
+.right-side .box{
+    background-color: #fff;
+    opacity: 0.7;
+    /* background: transparent,#fff; */
+    height: 450px;
+    width: 100%;
+    
+    padding: 40px;
+}
+.right-side .box h3{
+    color: rgb(12, 97, 72);
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.right-side .box p{
+    color: #000;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.one{
+    width: 25%;
+    background-color: #000;
+    opacity: 0.6;
+}
+.two{
+    background-color: #fff;
+    width: 75%;
+}
+.about{
+    display: flex;
+}
+.sec-1, .sec-2{
+    margin: 70px;
+}
+.sec-1 i, .sec-2 i{
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(12, 97, 72);
+    margin-bottom: 30px;
+}
+.sec-1 h2, .sec-2 h2, .desc h2, .talk h2, .work h2{
+    font-size: 35px;
+    color: rgb(12, 97, 72);
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.sec-1 p, .sec-2 p, .desc p, .talk p{
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+.work{
+    margin: 0px 70px 70px;
+}
+.cell{
+    width: 20%;
+    height: 250px;
+    margin: 0 15px;
+}
+.cell img{
+    width: 100%;
+    height: 250px;
+}
+.clients{
+    margin: 0px 70px 50px 70px;
+    width: 75%;
+}
+.p-1, .p-2{
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.p-1 img, .p-2 img{
+    border: 1px solid gray;
+    margin-right: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer{
+    display: flex;
+    margin: 80px 80px 50px 80px;
+}
+.talk{
+    margin-right: 60px;
+}
+.talk{
+    border: 1px solid gray;
+    padding: 20px;
+    width: 50%;
+}
+
+.contact{
+    text-align: center;
+    padding: 80px 20px 20px;
+    width: 50%;
+}
+.contact input, textarea{
+    font-size: 15px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+.contact button{
+    font-size: 20px;
+    background-color: rgb(12, 97, 72);
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.contact button:hover{
+    color: rgb(12, 97, 72);
+    background-color: #fff;
+    border: 1px solid rgb(12, 97, 72);
+}
